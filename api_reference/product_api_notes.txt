@@ -1,0 +1,26 @@
+http://localhost/final/php_complete_project/api_reference/product_auth.php/f2
+
+http://localhost/final/php_complete_project/api_reference/product_auth.php/f3/john
+
+http://localhost/final/php_complete_project/api_reference/product_auth.php/login
+post
+{
+	"username":"ranjan",
+	"password":"ranjan"
+}
+
+http://localhost/final/php_complete_project/api_reference/product_auth.php/register
+post
+{
+	"username":"john",
+	"password":"john",
+	"email":"john@gmail.com",
+	"name":"john"
+}
+
+http://localhost/final/php_complete_project/api_reference/product_operations.php/products
+get
+
+get all products for user 1
+http://localhost/final/php_complete_project/api_reference/product_operations.php/products/1
+

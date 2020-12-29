@@ -14,12 +14,12 @@
         </header>
         <section id="main">
             <?php 
-                if(isset($_SESSION['valid'])){
+                if(isset($_SESSION['username'])){
                     include_once("connection.php");
                     $result = mysqli_query($mysqli_conn, "SELECT * FROM login");
                 
             ?>
-            Welcome <?php echo $_SESSION['name'];?><a href="logout.php">Logout</a><br>
+            Welcome <?php echo $_SESSION['name'];?><br><a href="logout.php">Logout</a><br>
             <a href="view.php">View and Add Products</a><br><br>
             <?php 
                 } else{

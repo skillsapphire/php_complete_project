@@ -1,0 +1,12 @@
+Admin login
+====================
+http://localhost/ionic-php-mysql-api/car_admin.php/adminlogin
+
+Request
+{
+	"user_email": "admin",
+	"user_password": "Test@12345"
+}
+
+Response
+{"resultObj":{"userObj":[{"id":"1","UserName":"admin","Password":"5c428d8875d2948607f3e3fe134d71b4"}],"status":"SUCCESS"}}

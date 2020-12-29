@@ -1,0 +1,62 @@
+CREATE TABLE Menu
+(
+id int NOT NULL AUTO_INCREMENT,
+description varchar(800),
+unitPrice double,
+name varchar(255),
+imageUrl varchar(900),
+PRIMARY KEY (ID)
+)
+
+insert into Menu values(1,"Tawa Roti",0.7,"Tawa Roti",'');
+insert into Menu values(2,"Rumali Roti",0.7,"Rumali Roti",'');
+insert into Menu values(3,"Dal Makhni",1,"Dal Makhni",'');
+insert into Menu values(4,"Dal Fry",1,"Dal Fry",'');
+insert into Menu values(5,"Fried Rice",1.2,"Fried Rice",'');
+
+insert into Menu values(6,"Paneer tikka",1.5,"Paneer tika",'');
+insert into Menu values(7,"Shahi Paneer",1.7,"Shahi Paneer",'');
+insert into Menu values(8,"Kadhai Paneer",1.7,"Kadhai Paneer",'');
+insert into Menu values(9,"Paneer Punjabi",1.2,"Paneer Punjabi",'');
+
+insert into Menu values(10,"Diet Coke",0.7,"Diet Coke",'');
+insert into Menu values(11,"Mountain Dew",0.7,"Mountain Dew",'');
+insert into Menu values(12,"Pepsi",0.7,"Pepsi",'');
+insert into Menu values(13,"Mineral Water",0.5,"Fried Rice",'');
+
+insert into Menu values(14,"Mix Veg",1.9,"Mix Veg",'');
+insert into Menu values(15,"Mattar Paneer",2,"Mattar Paneer",'');
+insert into Menu values(16,"Zeera Aloo",1.5,"Zeera Aloo",'');
+insert into Menu values(17,"Paneer Kofta",1.2,"Paneer Kofta",'');
+
+
+insert into Menu values(18,"Paneer tikka",1.5,"Paneer tika",'');
+insert into Menu values(19,"Shahi Paneer",1.7,"Shahi Paneer",'');
+insert into Menu values(20,"Kadhai Paneer",1.7,"Kadhai Paneer",'');
+insert into Menu values(21,"Paneer Punjabi",1.2,"Paneer Punjabi",'');
+
+insert into Menu values(22,"Diet Coke",0.7,"Diet Coke",'');
+insert into Menu values(23,"Mountain Dew",0.7,"Mountain Dew",'');
+insert into Menu values(24,"Pepsi",0.7,"Pepsi",'');
+insert into Menu values(25,"Mineral Water",0.5,"Fried Rice",'');
+
+insert into Menu values(26,"Mix Veg",1.9,"Mix Veg",'');
+insert into Menu values(27,"Mattar Paneer",2,"Mattar Paneer",'');
+insert into Menu values(28,"Zeera Aloo",1.5,"Zeera Aloo",'');
+insert into Menu values(29,"Paneer Kofta",1.2,"Paneer Kofta",'');
+insert into Menu values(30,"Paneer Kofta",1.2,"Paneer Kofta",'');
+
+sample request 
+
+http://localhost/ionic-php-mysql-api/index.php/f2
+
+http://localhost:80/azsys/jobs.php/postJob
+
+
+{
+"experience":"test job exp 1",
+"technology":"test technology",
+"expiry_date":"20/04/2015",
+"description":"test job description 1"
+}
+

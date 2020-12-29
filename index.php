@@ -20,7 +20,7 @@
                 
             ?>
             Welcome <?php echo $_SESSION['name'];?><br><a href="logout.php">Logout</a><br>
-            <a href="view.php">View and Add Products</a><br><br>
+            <a href="productoverview.php">View and Add Products</a><br><br>
             <?php 
                 } else{
                     echo "Please login to view this page.<br><br>";

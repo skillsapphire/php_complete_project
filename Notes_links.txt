@@ -1,0 +1,4 @@
+https://blog.chapagain.com.np/crud-create-read-update-delete-php-mysql-login-register/
+
+https://codewithawa.com/posts/complete-user-registration-system-using-php-and-mysql-database
+https://codewithawa.com/posts/php-crud-create,-edit,-update-and-delete-posts-with-mysql-database
